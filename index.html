@@ -6,53 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exemplo 04: CSS</title>
     <style>
-        ol li {
-            text-decoration: underline;
-            text-decoration-style: dashed !important;
-            font-size: medium;
-        }
-        ul > li {
-          text-decoration: underline;
-          text-decoration: dotted;
-          font-size: medium;
-        }
-        </style>
+      li.cidade {
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        font-size: medium;
+      }
+      li.estado {
+        text-decoration: underline;
+        text-decoration-style: dotted;
+        font-size: medium;
+      }
+    </style>
   </head>
   <body>
     <h1>Exemplo 04: CSS</h1>
     <ol>
-      <li style="font-size: x-large">Minas Gerais
-    <ul>
-        <li>Juiz de Fora</li>
-    </ul>
-    
-    
-    </li>
-      <li style="font-weight: bolder">Rio de Janeiro</li>
-      <li
-        style="
-          font-size: x-small;
-          font-weight: lighter;
-          text-transform: uppercase;
-        "
-      >
-        São Paulo
+      <li class="estado">
+        Minas Gerais
+        <ul>
+          <li class="cidade">Juiz de Fora</li>
+        </ul>
       </li>
-      <li
-        style="
-          font-size: x-small;
-          font-weight: bolder;
-          font-variant: small-caps;
-        "
-      >
-        Espírito Santo
-      </li>
-    </ol>
-    <ul>
-      <li>Volta Redonda</li>
+      <li class="estado">
+        Rio de Janeiro
+        <ul>
+          <li class="cidade">Volta Redonda</li>
 
-      <li>Barra Mansa</li>
-      <li>Rio de Janeiro</li>
-    </ul>
+          <li class="cidade">Barra Mansa</li>
+          <li class="cidade">Rio de Janeiro</li>
+        </ul>
+      </li>
+
+      <li class="estado">São Paulo</li>
+      <li class="estado">Espírito Santo</li>
+    </ol>
+    <ul></ul>
   </body>
 </html>
