@@ -16,7 +16,7 @@ box-sizing: border-box;
 #B {
     background-color: hsl(229, 100%, 50%);
     padding: 20px 10px 5px 0px;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
 }
