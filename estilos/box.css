@@ -1,6 +1,20 @@
 div {
-    background-color: hsl(0, 0%, 25%);
-    color:hsl(0, 0%, 100%);
-    display: inline;
-    width: 200px;
+background-color: darkgrey;
+color: white;
+width: 200px;
+height: 120px;
+overflow: auto;
+padding:10px;
+border: solid 2px blue;
+margin: 15px;
+box-sizing: border-box;
+
+}
+
+#A {
+    background-color: hsl(0, 100%, 50%);
+}
+#B {
+    background-color: hsl(229, 100%, 50%);
+    padding: 20px 10px 5px 0px;
 }
