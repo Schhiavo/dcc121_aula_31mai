@@ -1,0 +1,6 @@
+div {
+    background-color: hsl(0, 0%, 25%);
+    color:hsl(0, 0%, 100%);
+    display: inline;
+    width: 200px;
+}
