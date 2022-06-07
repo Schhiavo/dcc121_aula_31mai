@@ -6,7 +6,6 @@ height: 120px;
 overflow: auto;
 padding:10px;
 border: solid 2px blue;
-margin: 15px;
 box-sizing: border-box;
 
 }
@@ -17,9 +16,11 @@ box-sizing: border-box;
 #B {
     background-color: hsl(229, 100%, 50%);
     padding: 20px 10px 5px 0px;
-    float: right;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 #C {
-float: right;
+
 
 }
